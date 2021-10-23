@@ -19,7 +19,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = var.hw
   key_name = var.key
   tags = {
-    Name = "shirish-aws-ec2-instance2"
+    Name = "vikas-aws-ec2-instance2"
     Env = "Dev"
     App = "Web"
   }
