@@ -21,6 +21,7 @@ resource "aws_instance" "myawsserver" {
   tags = {
     Name = "shirish-aws-ec2-instance2"
     Env = "Dev"
+    App = "Web"
   }
 }
 
